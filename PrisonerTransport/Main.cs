@@ -15,9 +15,9 @@ namespace PrisonerTransport
             Tick += OnTick;
         }
 
-        private async Task Ontick()
+        private async Task OnTick()
         {
-            if(API.GetGameTimer() -gTimer >= 1000)
+            if (API.GetGameTimer() - gTimer >= 1000)
             {
                 gTimer = API.GetGameTimer();
 

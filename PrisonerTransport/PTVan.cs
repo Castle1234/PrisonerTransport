@@ -61,7 +61,6 @@ namespace PrisonerTransport
             await CommonFunction.LoadModel((uint)VehicleHash.PoliceT);
             ptVanEntity = await World.CreateVehicle(VehicleHash.PoliceT, spawnLocation, spawnHeading);
             ptVanEntity.Mods.LicensePlate = "PTVAN";
-            ptVanEntity.Mods.PrimaryColor = VehicleColor.Black;
             ptVanEntity.Mods.LicensePlateStyle = LicensePlateStyle.BlueOnWhite1;
 
             //PT van blip spawn
