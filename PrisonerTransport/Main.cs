@@ -19,7 +19,7 @@ namespace PrisonerTransport
         {
             if (API.GetGameTimer() - gTimer >= 1000)
             {
-                gTimer = API.GetGameTimer();
+                gTimer = API.GetGameTimer(); 
 
                 API.EnableDispatchService(1, false);
 
